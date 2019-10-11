@@ -1,6 +1,8 @@
 // Mixins Here
 
-
+.fWidth() {
+    width: 100%;
+}
 
 .customBtn(@bgColor, @textCol) {
     text-align: center;
@@ -11,5 +13,11 @@
     font-size: 20px;
     width: 100px;
     padding: 10px;
+
+    &:hover {
+        transition: 0.25s;
+        background: @textCol;
+        color: @bgColor;
+      }
 }
 

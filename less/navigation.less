@@ -11,6 +11,10 @@ nav {
     padding: 10px 0;
     margin: 15px auto 0;
 
+    @media @phone {
+        .fWidth();
+      }
+
 
         h1 {
             font-size: 4.2rem;
@@ -21,6 +25,10 @@ nav {
             width: 40%;
             display: flex;
             justify-content: space-between;
+
+            @media @phone {
+                width: 80%;
+            }
 
                 a {
                     text-decoration: none;
