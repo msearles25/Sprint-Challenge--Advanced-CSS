@@ -58,6 +58,13 @@
       }
 
       .btn {
+        .customBtn(@btn-bg-color, @sea-shell);
+
+        &:hover {
+          transition: 0.25s;
+          background:@sea-shell;
+          color: @btn-bg-color;
+        }
       }
     }
 
