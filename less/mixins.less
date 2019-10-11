@@ -24,3 +24,23 @@
         color: @bgColor;
       }
 }
+
+.slideIn(@time, @anim) {
+    @keyframes bannerSlide {
+        from {
+            margin-left: -250%;
+        }
+        to{
+            margin-right: 0;
+        }
+    }
+    @keyframes navSlide {
+        from{
+            margin-top: -100%;
+        }
+        to {
+            margin-top: 0;
+        }
+    }
+    animation: @anim @time;
+}

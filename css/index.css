@@ -170,6 +170,23 @@ nav {
   background: #F6F6F6;
   padding: 10px 0;
   margin: 15px auto 0;
+  animation: navSlide 2s;
+}
+@keyframes bannerSlide {
+  from {
+    margin-left: -250%;
+  }
+  to {
+    margin-right: 0;
+  }
+}
+@keyframes navSlide {
+  from {
+    margin-top: -100%;
+  }
+  to {
+    margin-top: 0;
+  }
 }
 @media (max-width: 500px) {
   nav {
@@ -214,6 +231,23 @@ footer {
 .home .banner {
   width: 100%;
   border-radius: 5px;
+  animation: bannerSlide 5s;
+}
+@keyframes bannerSlide {
+  from {
+    margin-left: -250%;
+  }
+  to {
+    margin-right: 0;
+  }
+}
+@keyframes navSlide {
+  from {
+    margin-top: -100%;
+  }
+  to {
+    margin-top: 0;
+  }
 }
 .home .space-images {
   display: flex;
@@ -294,6 +328,9 @@ footer {
     padding: 20px 0;
     margin: 0 0 20px 0;
   }
+}
+.home .walk .walk-text .btn a {
+  text-decoration: none;
 }
 .home .walk .walk-img {
   width: 46%;
