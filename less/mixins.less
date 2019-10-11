@@ -1,1 +1,46 @@
 // Mixins Here
+
+.fWidth() {
+    width: 100%;
+}
+
+.flex(@display: flex) {
+    display: @display;
+}
+
+.customBtn(@bgColor, @textCol) {
+    text-align: center;
+    border: 1px solid black;
+    background: @bgColor;
+    color: @textCol;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100px;
+    padding: 10px;
+
+    &:hover {
+        transition: 0.25s;
+        background: @textCol;
+        color: @bgColor;
+      }
+}
+
+.slideIn(@time, @anim) {
+    @keyframes bannerSlide {
+        from {
+            margin-left: -250%;
+        }
+        to{
+            margin-right: 0;
+        }
+    }
+    @keyframes navSlide {
+        from{
+            margin-top: -100%;
+        }
+        to {
+            margin-top: 0;
+        }
+    }
+    animation: @anim @time;
+}
