@@ -52,7 +52,7 @@ It allows you to use a unique syntax for nesting or other things you normally ca
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-My favorite would have to be either the nesting or the use of parametric mixins.
+My favorite would have to be either the nesting or the use of parametric mixins. I don't really have that much trouble with less or css. Nothing has really seemed to stump me so far.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

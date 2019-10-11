@@ -213,6 +213,7 @@ footer {
 }
 .home .banner {
   width: 100%;
+  border-radius: 5px;
 }
 .home .space-images {
   display: flex;
